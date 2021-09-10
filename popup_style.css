@@ -1,0 +1,149 @@
+body {
+    width: 240px;
+    height: 300px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+    color: white;
+    /* font-size: 20px; */
+    background-color: #00bcd4de;
+}
+
+#title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+		text-align: center;
+}
+
+input {
+    padding:10px;
+    border:1px solid #111;
+    border-radius:10px;
+    width: 50%
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+}
+
+span {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+label {
+    padding: 10px;
+    font-size: medium;
+    display: inline-block;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Remove Input Number up and down arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+	font-size:20px;
+	margin-bottom: 5px;
+  /* width:35%; */
+}
+
+.total_style {
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 3px 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+	margin: 0 0 20px 0;
+}
+
+/* Dropdown */
+.dropdown {
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+select {
+	width: 140px;
+	height: 35px;
+	padding: 4px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 8px #999;
+	background: #eee;
+	border: none;
+	outline: none;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	text-align: center;
+}
+
+li {
+	text-align: left;
+}
+
+.f15 {
+	font-size: 15px;
+}
+.f10 {
+	font-size: 10px;
+}
+.f13 {
+	font-size: 13px;
+}
+.f20 {
+	font-size: 20px;
+}
+
+/* Divide in 2 pats */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+	text-align: center;
+	white-space: nowrap;
+}
+.space-between { 
+  /* justify-content: space-between;  */
+	-webkit-columns: 40px 2;
+	/* Chrome, Safari, Opera */
+	-moz-columns: 60px 2;
+	/* Firefox */
+	columns: 60px 2;
+}  
+

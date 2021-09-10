@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit Calculator</title>
+    <link rel="stylesheet" href="./popup_style.css">
+  </head>
+
+  <body>
+    <p id="title"> Profit Calculator </p>
+
+    <div class="dropdown">
+      <select id="commission_fee">
+        <option id="wrx_inr" value="0.002" selected>Wazirx INR</option>
+        <option id="bnb_usdt" value="0.001" >Binance USDT</option>
+        <option id="bnb_bnb" value="0.00075">Binance BNB</option>
+        <option id="bnb_busd" value="0.000">Binance BUSD</option>
+       </select>
+      </div>
+    </div>
+
+    <div>
+      <span>
+        <label for="total_coins" >Coins</label>
+        <input id="total_coins" type="number" name="total_coins" placeholder=0 />
+      </span>
+
+      <span>
+        <label for="buy_coins" >Buy &nbsp;&nbsp;</label>
+        <input id="buy_coins" type="number" name="buy_coins" placeholder=0 />
+      </span>
+      
+      <span>
+        <label for="sell_coins" >Sell &nbsp;&nbsp;</label>
+        <input id="sell_coins" type="number" name="sell_coins" placeholder=0 />
+      </span>
+    </div>
+    
+    <br>
+    <div>
+      <ul class="flex-container space-between">
+        <li class="flex-item f15">
+          Total Buy: <br><span id='total_buy'><span>
+        </li>
+        <li class="flex-item f15">
+          Total Sell: <br><span id='total_sell'><span>
+        </li>
+      </ul>
+      <br>
+      <ul class="flex-container space-between">
+        <li class="flex-item f13">
+          Buy fee: <span id='buy_fee'><span>
+        </li>
+        <li class="flex-item f13">
+          Sell fee: <span id='sell_fee'><span>
+        </li>
+      </ul>
+      <p id="total_style" class="f15"> Commission Fee: <span id='total_fee'><span></p>
+      <button class="button-34" role="button" id='Profit'>Total Profit</button>
+      <span id='total_profit' class="f20"><span>
+    </div>
+
+    <script src="./popup_script.js"></script>
+  </body>
+
+</html>
