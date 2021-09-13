@@ -1,5 +1,5 @@
 ## Crypto-Calc
-![Crypto-Calc](https://github.com/Md-Hiccup/Crypto-Calc/master/images/crypto-calc.jpeg)
+![Crypto-Calc](https://github.com/Md-Hiccup/Crypto-Calc/blob/master/images/crypto-calc.jpeg)
 
 ## Steps to install code in chrome-extension
 1. Download the code
