@@ -17,13 +17,18 @@ document.getElementById("total_profit").innerHTML = fixed_price(0);
 
 // Total Coin
 totalCoin.addEventListener("input", (e) => {
+  fee = document.getElementById("commission_fee").value;
   updateTotalCoin = e.target.value;
 
   buy = getCoin('updateBuyCoin', 'buy_coins')
   updateBuyCoin = buy * updateTotalCoin;
+  buy_fee = buy * updateTotalCoin * fee
   sell = getCoin('updateSellCoin', 'sell_coins')
   updateSellCoin = sell * updateTotalCoin;
+  sell_fee = sell * updateTotalCoin * fee
 
+  document.getElementById("buy_fee").innerHTML = fixed_price(buy_fee);
+  document.getElementById("sell_fee").innerHTML = fixed_price(sell_fee);
   document.getElementById("total_buy").innerHTML = fixed_price(updateBuyCoin);
   document.getElementById("total_sell").innerHTML = fixed_price(updateSellCoin);
 })
@@ -93,7 +98,7 @@ function updateValues(){
   fee = document.getElementById("commission_fee").value;
   buy = getCoin('updateBuyCoin', 'buy_coins')
   sell = getCoin('updateSellCoin', 'sell_coins')
-  console.log('fee', fee, 'buy', buy, 'sell', sell)
+  // console.log('fee', fee, 'buy', buy, 'sell', sell)
 
   total = getCoin('updateTotalCoin', 'total_coins')
   buy_fee = buy * total * fee
