@@ -1,13 +1,13 @@
 body {
-    width: 240px;
-    height: 300px;
+    width: 320px;
+    height: 350px;
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; */
 
-    color: white;
+    color: black;
     /* font-size: 20px; */
-    background-color: #00bcd4de;
+    background: radial-gradient(961px at 1.9% 5%, rgb(242, 241, 36) 0%, rgb(11, 236, 218) 90%);
 }
 
 #title {
@@ -21,7 +21,7 @@ input {
     padding:10px;
     border:1px solid #111;
     border-radius:10px;
-    width: 50%
+    /* width: 60%; */
 }
 
 input[type="radio"]{
@@ -65,19 +65,41 @@ input[type=number] {
 	margin-left: 20px;
 }
 
+.total-fee {
+  margin-left: 15px;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+
+.profit_amt {
+  margin-left: 30px;
+  font-size: 25px;
+}
 
 /* CSS */
 .button-34 {
-  background: #5E5DF0;
-  border-radius: 999px;
+  background: #33b945;
+  /* border-radius: 999px; */
   box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 24px;
+  /* font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif; */
+  font-size: 13px;
+  /* font-weight: 500; */
+  line-height: 21px;
   opacity: 1;
   outline: 0 solid transparent;
   padding: 3px 10px;
@@ -87,7 +109,7 @@ input[type=number] {
   width: fit-content;
   word-break: break-word;
   border: 0;
-	margin: 0 0 20px 0;
+	/* margin: 0 0 10px 0; */
 }
 
 /* Dropdown */
@@ -102,15 +124,16 @@ select {
 	padding: 4px;
 	border-radius: 4px;
 	box-shadow: 2px 2px 8px #999;
-	background: #eee;
+	background: #1dc75be6;
 	border: none;
 	outline: none;
 	display: inline-block;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+	/* -webkit-appearance: none; */
+	/* -moz-appearance: none; */
+	/* appearance: none; */
 	cursor: pointer;
 	text-align: center;
+  color: white;
 }
 
 li {
@@ -127,13 +150,15 @@ li {
 	font-size: 13px;
 }
 .f20 {
-	font-size: 20px;
+	font-size: 16px;
 }
-
+.ml-15 {
+  margin-left: 15px;
+}
 /* Divide in 2 pats */
 .flex-container {
   padding: 0;
-  margin: 0;
+  margin: 10px 0 10px 0;
   list-style: none;
 	text-align: center;
 	white-space: nowrap;
