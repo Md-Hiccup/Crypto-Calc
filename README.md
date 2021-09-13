@@ -1,9 +1,39 @@
-## Crypto-Calc
-![Crypto-Calc](https://github.com/Md-Hiccup/Crypto-Calc/blob/master/images/crypto-calc-2.jpeg)
+# The Crypto-Calc
 
-## Steps to install code in chrome-extension
-1. Download the code
+Crypto-Calc is a calculator for crypto profit/loss and commission fees.
+
+
+## 💻 Installation steps
+
+1. git clone https://github.com/Md-Hiccup/Crypto-Calc.git
 2. Go to [chrome://extensions/](chrome://extensions/)
 3. Enable the **Developer Mode**
 4. Load the Code using "Load Unpacked"
 5. From extension Pin the "Crypto-Calc"
+
+
+## 📱 Screen Shots
+
+<img src="https://github.com/Md-Hiccup/Crypto-Calc/blob/master/chrome-extension/images/crypto-calc-2.jpeg" width=180>
+
+
+## 🎯 Features to be added
+
+- Desktop App
+
+
+## 🔑 License
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
+
+## 🧑 Author
+
+#### Mohammad Hussain
+![LinkedIn Link](https://www.linkedin.com/in/md-hussain)
+
+You can also follow my GitHub Profile to stay updated about my latest projects:
+
+![GitHub Follow](https://github.com/Md-Hiccup)
+
+If you liked the repo then kindly support it by giving it a star ⭐!
+
+Copyright (c) 2021 MOHAMMAD HUSSAIN
