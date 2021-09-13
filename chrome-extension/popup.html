@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profit Calculator</title>
-    <link rel="stylesheet" href="./popup_style.css">
+    <link rel="stylesheet" href="./css/popup_style.css">
   </head>
 
   <body>
@@ -51,14 +51,14 @@
       </ul>
       <ul class="flex-container space-between">
         <li class="flex-item f13">
-          Buy fee: <span id='buy_fee'><span>
+          Buy fee: <span class="green" id='buy_fee'><span>
         </li>
         <li class="flex-item f13">
-          Sell fee: <span id='sell_fee'><span>
+          Sell fee: <span class="red" id='sell_fee'><span>
         </li>
       </ul>
-      <p id="total_style" class="f15">
-        Commission Fee: <span class="ml-15 f20 total_fee" id='total_fee'><span>
+      <p id="total_style" class="f13">
+        Commission Fee: <span class="ml-15 f13 red total_fee" id='total_fee'><span>
       </p>
       <p>
         <button class="button-34" role="button" id='Profit'>Total Profit</button>
@@ -66,7 +66,7 @@
       </p>
     </div>
 
-    <script src="./popup_script.js"></script>
+    <script src="./js/popup_script.js"></script>
   </body>
 
 </html>

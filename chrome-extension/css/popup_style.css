@@ -1,13 +1,14 @@
 body {
     width: 320px;
-    height: 350px;
+    height: 360px;
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; */
 
-    color: black;
+    color: #ffedf0;
     /* font-size: 20px; */
-    background: radial-gradient(961px at 1.9% 5%, rgb(242, 241, 36) 0%, rgb(11, 236, 218) 90%);
+    /* background: radial-gradient(961px at 1.9% 5%, rgb(242, 241, 36) 0%, rgb(11, 236, 218) 90%); */
+    background: linear-gradient(to top,#fbc2eb 0%,#a18cd1 100%);
 }
 
 #title {
@@ -22,6 +23,7 @@ input {
     border:1px solid #111;
     border-radius:10px;
     /* width: 60%; */
+    color: #0d4e2c;
 }
 
 input[type="radio"]{
@@ -70,10 +72,10 @@ input[type=number] {
 }
 
 .green {
-  color: green;
+  color: #40b22f;
 }
 .red {
-  color: red;
+  color: #ee0a02;
 }
 
 .pl-10 {
@@ -84,7 +86,7 @@ input[type=number] {
 }
 
 .profit_amt {
-  margin-left: 30px;
+  margin-left: 15px;
   font-size: 25px;
 }
 
@@ -150,7 +152,7 @@ li {
 	font-size: 13px;
 }
 .f20 {
-	font-size: 16px;
+	font-size: 18px;
 }
 .ml-15 {
   margin-left: 15px;

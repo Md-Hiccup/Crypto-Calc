@@ -68,7 +68,12 @@ function fixed_price(value) {
 Profit = document.getElementById('Profit')
 Profit.addEventListener("click", () => {
   data = updateValues();
-
+  if (data['profit'] > 0) {
+    document.getElementById('total_profit').style.color = '#40b22f';
+  }
+  else {
+    document.getElementById('total_profit').style.color = '#ee0a02';
+  }
   document.getElementById("total_fee").innerHTML = fixed_price(data['comm_fee']);
   document.getElementById("total_profit").innerHTML = fixed_price(data['profit']);
 });
