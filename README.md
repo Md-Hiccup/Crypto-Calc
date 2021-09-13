@@ -14,8 +14,8 @@ Crypto-Calc is a calculator for crypto profit/loss and commission fees.
 
 ## 📱 Screen Shots
 
-<img src="https://github.com/Md-Hiccup/Crypto-Calc/blob/master/chrome-extension/images/crypto-calc-2.jpeg" width=180>
-
+<img src="https://github.com/Md-Hiccup/Crypto-Calc/blob/master/chrome-extension/images/crypto-calc-3.jpeg" width=300 height=400>
+<img src="https://github.com/Md-Hiccup/Crypto-Calc/blob/master/chrome-extension/images/crypto-calc-4.jpeg" width=300 height=400>
 
 ## 🎯 Features to be added
 
