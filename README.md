@@ -5,10 +5,11 @@ Crypto-Calc is a calculator for crypto profit/loss and commission fees.
 
 ## 💻 Installation steps
 
-1. git clone https://github.com/Md-Hiccup/Crypto-Calc.git
+1. Download the zip 
+    - git clone https://github.com/Md-Hiccup/Crypto-Calc.git
 2. Go to [chrome://extensions/](chrome://extensions/)
-3. Enable the **Developer Mode**
-4. Load the Code using "Load Unpacked"
+3. Enable the **Developer Mode** on top right.
+4. Load the code using "Load unpacked" on chrome://extensions (top left) 
 5. From extension Pin the "Crypto-Calc"
 
 
